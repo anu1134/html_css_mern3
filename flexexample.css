@@ -1,0 +1,27 @@
+.parent {
+  background-color: aquamarine;
+  width: 800px;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  margin: 10px;
+  color: white;
+}
+
+.header1 {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  margin: 10px;
+  flex-grow: 1;
+  align-self: flex-start;
+  color: white;
+  order: 9;
+}
